@@ -9,7 +9,7 @@ plugins {
 group = "app.tier.kafka"
 version = "${properties["app.tier.ddb_transformer.version"]}"
 
-var camelVersion = "0.11.0"
+var camelVersion = "0.11.5"
 var awsSDKVersion = "2.17.110"
 var kafkaVersion = "3.0.0"
 
