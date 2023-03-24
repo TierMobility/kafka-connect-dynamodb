@@ -26,7 +26,7 @@ dependencies {
     implementation("org.apache.camel.kafkaconnector:camel-kafka-connector:$camelVersion")
     implementation("org.apache.camel.kafkaconnector:camel-aws2-ddb-kafka-connector:$camelVersion")
     implementation("software.amazon.awssdk:dynamodb:$awsSDKVersion")
-    implementation("org.slf4j:slf4j-simple:1.7.32")
+    implementation("org.slf4j:slf4j-simple:1.7.36")
 
     testImplementation("org.junit.jupiter:junit-jupiter:5.8.2")
     testImplementation(kotlin("test"))
